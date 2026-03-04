@@ -20,9 +20,35 @@ These findings establish a critical benchmark for quantum utility, proving that 
 | Marcelo Moret | mamoret@gmail.com |
 | Erick Giovani Sperandio Nascimento | erick.sperandio@surrey.ac.uk |
 
+
 ---
 
-## Estrutura do Projeto
+## Dataset Description
+
+### Raw Data (`data/`)
+Contém os dados utilizados nos experimentos.
+
+### Wavelets Data (`data/`)
+
+
+---
+
+## Key Findings
+
+1. **Finding:**
+  - a
+2. **Finding:**
+  - b
+
+---
+
+## Scripts Overview
+
+- **`file.py`**: Implements classical neural network architectures for nowcasting
+- **`notebook.ipynb`**: Generates the statistical analysis
+---
+
+## Repository Structure
 
 ```bash
 ├── data/              # Dados brutos e processados (não versionados)
@@ -36,103 +62,17 @@ These findings establish a critical benchmark for quantum utility, proving that 
 
 ---
 
-## Descrição dos Componentes
+## Citation
 
-### `data/`
-Contém os dados utilizados nos experimentos.
-⚠️ **Importante:** os dados originais não devem ser versionados.
-Inclua apenas scripts para processamento e exemplos sintéticos, se necessário.
+If you use this code or data in your research, please cite: 
 
-### `notebooks/`
-Jupyter Notebooks contendo as análises, testes e experimentos realizados.
-Organize-os por data ou tema, por exemplo:
-`notebooks/2025-01-analisando-correlacoes.ipynb`
-
-### `src/`
-Scripts e módulos em Python que implementam as funcionalidades principais do projeto.
-Estruture de forma modular para reuso entre notebooks.
-
-### `models/`
-Modelos treinados, checkpoints, ou artefatos resultantes do processo de aprendizado.
-
-### `results/`
-Saídas dos experimentos — gráficos, métricas, tabelas e logs.
-Evite armazenar arquivos muito grandes.
-
----
-
-## Configuração do Ambiente
-
-Para configurar o ambiente virtual e instalar dependências:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
-pip install -r requirements.txt
+```bibtex
+@article{article,
+  title={Title},
+  author={names},
+  journal={journal},
+  year={2026}
+}
 ```
-
 ---
-
-## Execução dos Experimentos
-
-Após configurar o ambiente, execute os notebooks ou scripts principais:
-
-```bash
-jupyter notebook
-```
-
-Ou diretamente via linha de comando:
-
-```bash
-python src/main.py
-```
-
----
-
-## Reproduzindo Resultados
-
-Para reproduzir os experimentos principais:
-
-```bash
-# 1. Configurar ambiente
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# 2. Executar pré-processamento
-python src/preprocess.py --input data/raw/ --output data/processed/
-
-# 3. Treinar modelo
-python src/train.py --config configs/exp1.yaml
-
-# 4. Gerar resultados
-python src/evaluate.py --model models/exp1.pkl --output results/
-```
-
----
-
-## Dependências Principais
-
-```txt
-Python >= 3.9
-JupyterLab
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-```
-
-Adicione outras conforme o projeto evolui em `requirements.txt`.
-
----
-
-## Licença
-
-This project is distributed under the [MIT](LICENSE) license.
-See the `LICENSE` file for more details.
-
----
-
-## Histórico de Versões
 
