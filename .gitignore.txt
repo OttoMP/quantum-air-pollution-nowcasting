@@ -1,0 +1,99 @@
+# ==============================
+# AMBIENTE PYTHON
+# ==============================
+venv/
+.venv/
+env/
+.env/
+ENV/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ==============================
+# DADOS (RAW / INTERMEDIÁRIOS / RESULTADOS)
+# ==============================
+data/
+dados/
+dataset/
+datasets/
+inputs/
+outputs/
+results/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.h5
+*.npz
+*.npy
+*.zip
+*.tar
+*.gz
+*.pkl
+
+# ==============================
+# NOTEBOOKS E LOGS
+# ==============================
+# Arquivos temporários e checkpoints de Jupyter
+.ipynb_checkpoints/
+# Logs de execução
+*.log
+logs/
+# Arquivos gerados automaticamente (ex: nbconvert)
+*.nbconvert.*
+
+# ==============================
+# CONFIGURAÇÕES E SISTEMA
+# ==============================
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# ==============================
+# MODELOS E ARTEFATOS DE TREINAMENTO
+# ==============================
+models/
+checkpoints/
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# ==============================
+# OUTROS
+# ==============================
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de cache
+.cache/
+__pycache__/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Ambiente Conda
+*.conda
+*.yml
+
+# Arquivos de credenciais
+*.env
+.env.local
+secrets/
+credentials.json
