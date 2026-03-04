@@ -1,17 +1,24 @@
-# Título do Projeto
+# An Annealing-based Quantum Neural Network with Discrete Wavelet Transforms for Enhanced Air Pollution Nowcasting
 
-> **Resumo:** Breve descrição sobre o objetivo do projeto — por exemplo:  
-> “Este projeto investiga padrões em séries temporais financeiras utilizando redes neurais quânticas e técnicas de análise estatística.”
+> **Abstract:** Air pollution poses a significant threat to public health, exacerbated by the rapid industrialization and urbanization of modern society.
+While traditional deep learning offers predictive capabilities, recent advancements in quantum machine learning (QML) present a compelling alternative.
+Here, we introduce a scalable hybrid framework that integrates variational quantum circuits with quantum annealing. Leveraging a neuromorphic quantum computing platform to transcend the qubit limitations of the NISQ era, we model particulate matter (PM$_{2.5}$) dynamics using high-density urban data from the UK.
+We demonstrate that our Quantum Neural Networks (QNNs) exhibit an intrinsic resilience to input volatility, significantly outperforming classical baselines (MLP and LSTM) on raw, high-entropy environmental data.
+Furthermore, we successfully scaled the model to 172 qubits, observing a synergistic enhancement when coupled with wavelet decomposition that achieves state-of-the-art predictive fidelity.
+These findings establish a critical benchmark for quantum utility, proving that scalable, neuromorphic quantum machine learning can now address complex, non-linear real-world problems.
 
 ---
 
-## Equipe de Pesquisa
+## Authors
 
-| Nome | Função / Responsabilidade | Contato |
-|------|----------------------------|----------|
-| Nome 1 | Coordenação / Modelagem | email@exemplo.com |
-| Nome 2 | Coleta e Limpeza de Dados | email@exemplo.com |
-| Nome 3 | Análise Estatística / Visualização | email@exemplo.com |
+| Nome | Contato |
+|------|----------|
+| Otto Menegasso Pires | otto.pires@fieb.org.br |
+| André Saimon | andre.sousa@fbter.org.br |
+| Samer Rahmeh | sam@dynex.co |
+| Prashant Kumar | p.kumar@surrey.ac.uk |
+| Marcelo Moret | mamoret@gmail.com |
+| Erick Giovani Sperandio Nascimento | erick.sperandio@surrey.ac.uk |
 
 ---
 
@@ -32,24 +39,24 @@
 ## Descrição dos Componentes
 
 ### `data/`
-Contém os dados utilizados nos experimentos.  
-⚠️ **Importante:** os dados originais não devem ser versionados.  
+Contém os dados utilizados nos experimentos.
+⚠️ **Importante:** os dados originais não devem ser versionados.
 Inclua apenas scripts para processamento e exemplos sintéticos, se necessário.
 
 ### `notebooks/`
-Jupyter Notebooks contendo as análises, testes e experimentos realizados.  
-Organize-os por data ou tema, por exemplo:  
+Jupyter Notebooks contendo as análises, testes e experimentos realizados.
+Organize-os por data ou tema, por exemplo:
 `notebooks/2025-01-analisando-correlacoes.ipynb`
 
 ### `src/`
-Scripts e módulos em Python que implementam as funcionalidades principais do projeto.  
+Scripts e módulos em Python que implementam as funcionalidades principais do projeto.
 Estruture de forma modular para reuso entre notebooks.
 
 ### `models/`
 Modelos treinados, checkpoints, ou artefatos resultantes do processo de aprendizado.
 
 ### `results/`
-Saídas dos experimentos — gráficos, métricas, tabelas e logs.  
+Saídas dos experimentos — gráficos, métricas, tabelas e logs.
 Evite armazenar arquivos muito grandes.
 
 ---
@@ -120,45 +127,12 @@ Adicione outras conforme o projeto evolui em `requirements.txt`.
 
 ---
 
-## Boas Práticas
-
-- Use **ambientes virtuais** (`venv` ou `.venv`).
-- **Não** versione dados sensíveis nem arquivos grandes.
-- Nomeie notebooks com **datas ou versões**.
-- Documente cada função e script com docstrings.
-- Atualize o `README.md` ao adicionar novos componentes.
-
----
-
 ## Licença
 
-Este projeto é distribuído sob a licença [MIT](LICENSE).  
-Consulte o arquivo `LICENSE` para mais detalhes.
+This project is distributed under the [MIT](LICENSE) license.
+See the `LICENSE` file for more details.
 
 ---
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição |
-|--------|------|------------|
-| 1.0.0 | 2025-01-01 | Estrutura inicial e primeiros notebooks |
-| 1.1.0 | 2025-02-15 | Adição de scripts de treinamento |
-| 1.2.0 | 2025-03-10 | Padronização da documentação |
-
-/**
- * Please paste the code selection you want documented.
- *
- * To generate an accurate documentation comment, include:
- *  - the programming language (if not obvious)
- *  - a brief description of the function/class/module's purpose
- *  - parameter names, types, and expected values/constraints
- *  - return type and meaning of the return value
- *  - any thrown exceptions or error conditions
- *  - important side effects or concurrency considerations
- *  - example usage (optional)
- *
- * Once the selection is provided, a concise documentation comment will be produced
- * matching the language's documentation/comment style.
- */
-
- 
