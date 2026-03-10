@@ -25,11 +25,7 @@ These findings establish a critical benchmark for quantum utility, proving that 
 
 ## Dataset Description
 
-### Raw Data (`data/`)
-Contém os dados utilizados nos experimentos.
-
-### Wavelets Data (`data/`)
-
+The dataset was sourced from the iSCAPE (Improving the Smart Control of Air Pollution in Europe) project public platform. Data were collected from two Living Lab Stations situated in Guildford, UK, a region characterized by significant vehicle-induced pollution. The monitoring stations, Sutherland Memorial Park (DS\_TS\_099; June--October 2019) and Stoke Park (DS\_TS\_103; February--September 2019), provided hourly open-road measurements. The primary feature space comprised concentrations of key pollutants (PM$_{2.5}$, CO, NO$_2$, O$_3$) alongside critical atmospheric variables (air temperature, relative humidity, and atmospheric pressure).
 
 ---
 
@@ -51,12 +47,14 @@ Contém os dados utilizados nos experimentos.
 ## Repository Structure
 
 ```bash
-├── data/              # Dados brutos e processados (não versionados)
+├── data/              # Available datasets
 ├── notebooks/         # Jupyter notebooks com análises e experimentos
 ├── src/               # Códigos-fonte e funções utilitárias
 ├── models/            # Modelos treinados ou artefatos
 ├── results/           # Saídas e resultados experimentais
+├── models/
 ├── requirements.txt   # Dependências do projeto
+├── 
 └── README.md          # Documentação principal
 ```
 
