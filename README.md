@@ -29,40 +29,22 @@ The dataset was sourced from the iSCAPE (Improving the Smart Control of Air Poll
 
 ---
 
-## Key Findings
-
-1. **Finding:**
-  - a
-2. **Finding:**
-  - b
-
----
-
-## Scripts Overview
-
-- **`file.py`**: Implements classical neural network architectures for nowcasting
-- **`notebook.ipynb`**: Generates the statistical analysis
----
-
 ## Repository Structure
 
 ```bash
-├── data/              # Available datasets
-├── notebooks/         # Jupyter notebooks com análises e experimentos
-├── src/               # Códigos-fonte e funções utilitárias
-├── models/            # Modelos treinados ou artefatos
-├── results/           # Saídas e resultados experimentais
-├── models/
-├── requirements.txt   # Dependências do projeto
-├── 
-└── README.md          # Documentação principal
+├── analysis/          # Loss values, Predictive Intervals and Performance Metrics of our models.
+├── data/              # Available preprocessed datasets used in the experiments
+├── notebooks/         # Jupyter notebooks containing the statistical analysis of our results
+├── plots/             # Plotted graphs using Matplotlib
+├── requirements.txt   # Project Dependencies
+└── README.md          # Main documentation
 ```
 
 ---
 
 ## Citation
 
-If you use this code or data in your research, please cite: 
+If you use this code or data in your research, please cite:
 
 ```bibtex
 @article{article,

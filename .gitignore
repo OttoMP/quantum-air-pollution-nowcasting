@@ -17,14 +17,12 @@ __pycache__/
 # ==============================
 # DADOS (RAW / INTERMEDIÁRIOS / RESULTADOS)
 # ==============================
-data/
 dados/
 dataset/
 datasets/
 inputs/
 outputs/
 results/
-*.csv
 *.tsv
 *.xlsx
 *.xls
